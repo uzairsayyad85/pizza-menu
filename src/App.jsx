@@ -47,6 +47,7 @@ import Header from "./components/Header";
 import "./assets/style.css";
 
 export default function App() {
+  console.log('hello')
   return (
     <div className="container">
       <Header />

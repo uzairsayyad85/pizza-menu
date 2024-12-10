@@ -44,12 +44,14 @@ const pizzaData = [
 ];
 
 import "./styles/style.css";
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Menu from "./components/Menu";
 
 export default function App() {
-  return(
+  return (
     <div className="container">
-      <Header/>
+      <Header />
+      <Menu pizzaData={pizzaData} />
     </div>
-  )
+  );
 }

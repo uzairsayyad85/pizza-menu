@@ -43,14 +43,13 @@ const pizzaData = [
   },
 ];
 
-import Header from "./components/Header";
-import "./assets/style.css";
+import "./styles/style.css";
+import Header from "./components/Header"
 
 export default function App() {
-  console.log('hello')
-  return (
+  return(
     <div className="container">
-      <Header />
+      <Header/>
     </div>
-  );
+  )
 }
